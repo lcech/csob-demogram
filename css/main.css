@@ -1,0 +1,127 @@
+html {
+  height: 102%; /* always keep a scrollbar */
+}
+body {
+  padding-bottom: 20px;
+}
+.navbar-default {
+  background-color: white;
+  margin-bottom: 0;
+}
+.navbar .nav a {
+  font-weight: bold;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover {
+  background: url(/img/logo_csob.png);
+  background-position: center center;
+  background-size: 71px 56px;
+  background-repeat: no-repeat;
+  color: transparent;
+  height: 56px;
+}
+#loginForm {
+  padding-right: 0;
+}
+#loginForm button {
+  background-color: #ff6000;
+  border: 0;
+  box-shadow: 0 -2px 0 #ae4200 inset;
+  font-weight: bold;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Condensed","Roboto","Arial Narrow",Arial,sans-serif;
+  color: #036;
+  line-height: 120%;
+}
+.jumbotron {
+  background: #09c;
+  border-top: 2px solid #0086b3;
+  color: White;
+  padding: 27px 0 10px 0;
+  font-size: 22px;
+  line-height: 26px;
+  font-family: "Roboto Condensed","Roboto","Arial Narrow",Arial,sans-serif;
+  font-weight: 200;
+}
+.jumbotron h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.content {
+  margin-top: 1em;
+}
+#account .col-mod-6,
+#credit_card .col-mod-6,
+#loan .col-mod-6 {
+  position: relative;
+}
+#account .product-info,
+#credit_card .product-info,
+#loan .product-info {
+  margin: 0 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#account a,
+#account h2,
+#credit_card a,
+#credit_card h2,
+#loan a,
+#loan h2 {
+  color: White;
+  text-shadow: 0 0 5px Black;
+  text-decoration: none;
+}
+.progress-state {
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+  margin: 0;
+}
+.progress-state .step, .progress-state .glyphicon {
+  display: block;
+  float: left;
+  line-height: 1.42857143;
+  margin: 0 2px -1px 0;
+  position: relative;
+}
+.progress-state .glyphicon {
+  padding: 10px 15px;
+}
+.progress-state .step .ico {
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  display: block;
+  padding: 10px 15px;
+}
+.progress-state .active .ico {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+.tab-content .panel {
+  border-top: 0;
+}
+@media (min-width: 768px) {
+  .navbar-default .navbar-brand,
+  .navbar-default .navbar-brand:hover {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  body .navbar .container .navbar-brand,
+  body .navbar .container-fluid .navbar-brand {
+    margin-left: 0;
+  }
+  .navbar-nav {
+    margin: 35px;
+  }
+  #loginForm {
+    margin: 41px 0;
+  }
+  #loggedInUser {
+    margin: 50px 0;
+  }
+}
