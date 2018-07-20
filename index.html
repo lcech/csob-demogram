@@ -107,7 +107,7 @@
             //put your AA calls here
             try {
               console.log('event from inside iframe'); 
-              if (typeof e === 'string') {
+              if (typeof e.data === 'string') {
                 console.log(JSON.parse(e.data));
               } else {
                 console.log(e.data);
