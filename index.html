@@ -49,10 +49,17 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]--><!-- Data Layer -->
     <script type="text/javascript">
       var digitalData = digitalData || {};
-      var measure = measure || function(){};
+      !function(a, k, t, i, v, u, j, e, m) {
+        a[i] = a[i] || function() {
+          (a[i].q = a[i].q || []).push(arguments)
+        },
+        e = k.createElement(t),
+        m = k.getElementsByTagName(t)[0],
+        e.async = 1,
+        e.src = "https://assets.adobedtm.com/launch-EN23165f753d454f219f0c2072e51137dc-development.min.js",
+        m.parentNode.insertBefore(e, m);
+      } (window, document, "script", "measure");
     </script>
-    <!-- Tag Manager-->
-    <script src="https://assets.adobedtm.com/launch-EN23165f753d454f219f0c2072e51137dc-development.min.js" async></script>
   </head>
   <body>
     <div role="navigation" class="navbar navbar-default">
